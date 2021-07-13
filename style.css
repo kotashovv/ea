@@ -1073,7 +1073,7 @@ a.catalog-item {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
-  background-image: url(/assets/img/icons/arrow.svg);
+  background-image: url(assets/img/icons/arrow.svg);
 }
 
 .footer__contacts {
