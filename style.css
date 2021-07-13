@@ -802,6 +802,12 @@ a.catalog-item {
   color: #fff;
 }
 
+@media (max-width: 767px) {
+  .catalog-item__title h2 {
+    font-size: 16px;
+  }
+}
+
 .catalog-item-small {
   max-height: 280px;
   width: 25%;
