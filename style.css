@@ -739,6 +739,10 @@ ul.sublist.active {
   }
 }
 
+.catalog > .container {
+  padding: 0;
+}
+
 .catalog__body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -970,6 +974,9 @@ a.catalog-item {
 }
 
 @media (max-width: 768px) {
+  .about {
+    padding: 20px 0;
+  }
   .about__body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -981,6 +988,7 @@ a.catalog-item {
   }
   .about__img {
     max-width: 200px;
+    display: none;
   }
   .about__textbox {
     padding: 20px 30px;
@@ -1073,7 +1081,7 @@ a.catalog-item {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
-  background-image: url(assets/img/icons/arrow.svg);
+  background-image: url(/assets/img/icons/arrow.svg);
 }
 
 .footer__contacts {
