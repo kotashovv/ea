@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru_RU">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#51adf6"> <!-- Цвет окна браузера для андройд -->
+    <meta name="google" content="notranslate"> <!-- Просьба не переводить страницу на другие языки -->
+    <meta name="geo.placename" content="Moscow"> <!-- Локация компании -->
+    <!-- Информация для социальных сетей -->
+    <meta property="og:url" content="https://site.com/"> <!-- URL данной страницы -->
+    <meta property="og:type" content="website"> <!-- Тип контента (для страниц используйте тип website) -->
+    <meta property="og:title" content="Заголовок страницы">
+    <meta property="og:description" content="Краткое описание контента на странице">
+    <meta property="og:image" content="https://site.com/images/image.jpg"> <!-- Превью -->
+    <meta property="og:image:alt" content="Описание того, что изображено на превью">
+    <meta property="og:site_name" content="Название сайта">
+    <meta property="og:locale" content="ru_RU"> <!-- Язык контента на странице -->
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- start header -->
+            <div class="header">
+                <div class="container">
+                    <div class="header__body">
+                        <div class="header__logo">
+                            <a href="#">
+                                <img src="assets/img/icons/Main-logo.png" alt="Логотип EA">
+                            </a>
+                        </div>
+                        <div class="header__menu">
+                            <ul class="menu__list">
+                                <li class="menu__link"><a class='link' data-goto=".about" href="#">О нас</a></li>
+                                <li class="menu__link"><a href="#">Кольца</a></li>
+                                <li class="menu__link"><a href="#">Серьги</a></li>
+                                <li class="menu__link"><a href="#">Подвески</a></li>
+                                <li class="menu__link"><a href="#">Браслеты</a></li>
+                                <li class="menu__link"><a class='link' data-goto=".footer" href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <button class="menu__burger">
+                            <span></span>
+                        </button>
+                        <nav class="mobile-menu">
+                            <ul>
+                                <li><a class='link' data-goto=".about" href="#">О нас</a></li>
+                                <li><a href="#">Кольца</a></li>
+                                <li><a href="#">Серьги</a></li>
+                                <li><a href="#">Подвески</a></li>
+                                <li><a href="#">Браслеты</a></li>
+                                <li><a class='link' data-goto=".about" href="#">Контакты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        <!-- end  header -->
+
+        <!-- start main-content -->
+        <main class="main-content">
+            <div class="welcome">
+                <div class="container">
+                    <div class="welcome__body">
+                        <div class="welcome__text">
+                            <h1>
+                                Ювелирные украшения
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="welcome__branch">
+                    <img src="assets/img/branch.png" alt="Ветка PNG">
+                </div>
+            </div>
+            <section class="catalog">
+                <div class="container">
+                    <div class="catalog__body">
+                        <div class="catalog__row">
+                            <div class="catalog-item catalog-item-big with-subcat">
+                                <a style="background-color: #fdedf8;" href="#" class="catalog-item catalog-item-medium">
+                                    <div class="catalog-item__img">
+                                        <img src="assets/img/cat02.jpg" alt="Ювелирное изделие">
+                                    </div>
+                                    <div class="catalog-item__title">
+                                        <h2>
+                                            Помолвочные кольца
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="#" style="background-color: #8f6d52;" class="catalog-item catalog-item-small">
+                                    <div class="catalog-item__img">
+                                        <img src="assets/img/cat03.jpg" alt="Ювелирное изделие">
+                                    </div>
+                                    <div class="catalog-item__title">
+                                        <h2>
+                                            Все кольца
+                                        </h2>
+                                    </div>
+                                </a>
+                                <a href="#" style="background-color: #cbc2b3;" class="catalog-item catalog-item-small">
+                                    <div class="catalog-item__img">
+                                        <img src="assets/img/cat04.jpg" alt="Ювелирное изделие">
+                                    </div>
+                                    <div class="catalog-item__title">
+                                        <h2>
+                                            Кольца из белого золота
+                                        </h2>
+                                    </div>
+                                </a>
+                            </div>
+                            <a href="#" style="background-color: #fef7dd;" class="catalog-item catalog-item-big">
+                                <div class="catalog-item__img">
+                                    <img src="assets/img/cat01.jpg" alt="Ювелирное изделие">
+                                </div>
+                                <div class="catalog-item__title">
+                                    <h2>
+                                        Обручальные кольца на заказ
+                                    </h2>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="catalog__row">
+                            <a style="background: #ecedef;" href="#" class="catalog-item catalog-item-small">
+                                <div class="catalog-item__img">
+                                    <img src="assets/img/cat05.jpg" alt="Ювелирное изделие">
+                                </div>
+                                <div class="catalog-item__title">
+                                    <h2>
+                                        Колье
+                                    </h2>
+                                </div>
+                            </a>
+                            <a style="background-color: #a19f9e;" href="#" class="catalog-item catalog-item-small">
+                                <div class="catalog-item__img">
+                                    <img src="assets/img/cat06.jpg" alt="Ювелирное изделие">
+                                </div>
+                                <div class="catalog-item__title">
+                                    <h2>
+                                        Кольца на заказ
+                                    </h2>
+                                </div>
+                            </a>
+                            <a style="background-color: #7a6757;" href="#" class="catalog-item catalog-item-small">
+                                <div class="catalog-item__img">
+                                    <img src="assets/img/cat07.jpg" alt="Ювелирное изделие">
+                                </div>
+                                <div class="catalog-item__title">
+                                    <h2>
+                                        Серьги
+                                    </h2>
+                                </div>
+                            </a>
+                            <a style="background-color: #e7dbcf;" href="#" class="catalog-item catalog-item-small all-catalog">
+                                <div class="catalog-item__img">
+                                </div>
+                                <div class="catalog-item__title">
+                                    <h2>
+                                        Весь каталог
+                                    </h2>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="container">
+                    <div class="about__body">
+                        <div class="about__textbox">
+                            <div class="about__title">
+                                <h3>
+                                    О нас
+                                </h3>
+                            </div>
+                            <div class="about__text">
+                                <p>
+                                    Красивая, изысканная и великолепная жизнь невозможна без достойных украшений. Любая женщина не откажется от симпатичного колечка с бриллиантом или пусетов с сапфирами. Ювелирная мастерская ЕА способна создать и первое, и второе, а также многие другие эксклюзивные изделия в СПб. В каталоге вы найдёте примеры работ, которые можно повторить или немного видоизменить. Нашли на просторах интернета украшение, которое не даёт вам спокойно спать ночами? Скажите бессоннице «Нет» — скачайте картинку на телефон и обращайтесь к нашим мастерам. Мастерская ювелирных изделий ЕА сделает ещё лучше и краше, при этом цены услуг вас не разочаруют.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about__img">
+                            <img src="assets/img/about-img.png" alt="Изображене недоступно">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- end  main-content -->
+
+        <!-- start footer -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__body">
+                        <div class="footer__logo">
+                            <img src="assets/img/icons/Main-logo.png" alt="EA LOGO">
+                        </div>
+                        <ul class="footer__nav">
+                            <li><a href="#">Кольца</a></li>
+                            <li><a href="#">Браслеты</a></li>
+                            <li><a href="#">Пусеты</a></li>
+                            <li><a href="#">Серьги</a></li>
+                            <li><a href="#">Подвески</a></li>
+                        </ul>
+                        <div class="footer__contacts">
+                            <div class="footer__phone">
+                                <a href="tel:+77777777777">+7 (777) 77 77 77</a>
+                            </div>
+                            <div class="footer__mail">
+                                <a href="mailto:company-home@example.com">companyname@example.com</a>
+                            </div>
+                            <div class="footer__socials">
+                                <a href="#">
+                                    <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.5 0.100098C7.44308 0.100098 0.0999756 7.48102 0.0999756 16.5846C0.0999756 24.8488 6.15704 31.6734 14.0482 32.8658V20.953H9.99054V16.6203H14.0482V13.7369C14.0482 8.96325 16.3619 6.86835 20.3089 6.86835C22.199 6.86835 23.1994 7.00984 23.6722 7.07303V10.8548H20.9799C19.3044 10.8548 18.7194 12.4525 18.7194 14.252V16.6203H23.6299L22.9643 20.953H18.7194V32.9001C26.724 31.8094 32.9 24.9298 32.9 16.5846C32.9 7.48102 25.5569 0.100098 16.5 0.100098Z" fill="#FFFBFB"/>
+                                    </svg>                                        
+                                </a>
+                                <a href="#">
+                                    <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.66397 0.100098C4.39001 0.100098 0.0999756 4.3941 0.0999756 9.66943V23.3361C0.0999756 28.6101 4.39398 32.9001 9.66931 32.9001H23.336C28.6099 32.9001 32.9 28.6061 32.9 23.3308V9.66409C32.9 4.39013 28.606 0.100098 23.3306 0.100098H9.66397ZM26.0666 5.56676C26.821 5.56676 27.4333 6.17903 27.4333 6.93343C27.4333 7.68783 26.821 8.3001 26.0666 8.3001C25.3122 8.3001 24.7 7.68783 24.7 6.93343C24.7 6.17903 25.3122 5.56676 26.0666 5.56676ZM16.5 8.3001C21.0223 8.3001 24.7 11.9778 24.7 16.5001C24.7 21.0224 21.0223 24.7001 16.5 24.7001C11.9777 24.7001 8.29998 21.0224 8.29998 16.5001C8.29998 11.9778 11.9777 8.3001 16.5 8.3001ZM16.5 11.0334C15.0501 11.0334 13.6597 11.6094 12.6345 12.6346C11.6093 13.6598 11.0333 15.0502 11.0333 16.5001C11.0333 17.9499 11.6093 19.3404 12.6345 20.3656C13.6597 21.3908 15.0501 21.9668 16.5 21.9668C17.9498 21.9668 19.3403 21.3908 20.3655 20.3656C21.3907 19.3404 21.9666 17.9499 21.9666 16.5001C21.9666 15.0502 21.3907 13.6598 20.3655 12.6346C19.3403 11.6094 17.9498 11.0334 16.5 11.0334Z" fill="#FFF9F9"/>
+                                    </svg>                                        
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        <!-- end  footer -->
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

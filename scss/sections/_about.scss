@@ -1,0 +1,132 @@
+.about {
+    padding: 50px 0;
+    // .about__body
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .about__textbox
+
+    &__textbox {
+        max-width: 840px;
+        width: 70%;
+        margin-right: 20px;
+    }
+
+    // .about__title
+
+    &__title {
+        width: 100%;
+        text-align: left;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 75%;
+            max-width: 570px;
+            height: 2px;
+            background-color: #edc0a8;
+        }
+        h3 {
+            font-size: 50px;
+            color: #edc0a8;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            margin: 0;
+        }
+    }
+
+    // .about__text
+
+    &__text {
+        padding: 50px 0 0;
+        p {
+            margin: 0;
+            font-family: 'Quicksand-Light', sans-serif;
+            font-weight: 300;
+            color: rgba(0, 0, 0, 0.5);
+            font-size: 30px;
+            line-height: 1.2;
+        }
+    }
+
+    // .about__img
+
+    &__img {
+        max-width: 420px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width:1024px) {
+    .about {
+        &__title {
+            h3 {
+                font-size: 36px;
+            }
+        }
+        &__text {
+            p {
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .about {
+        &__body {
+            flex-direction: column-reverse;
+            align-items: flex-end;
+        }
+        &__img {
+            max-width: 200px;
+        }
+        &__textbox {
+            padding: 20px 30px;
+            margin: 0;
+            width: 90%;
+            text-align: left;
+        }
+        &__title {
+            h3 {
+                font-size: 24px;
+            }
+        }
+        &__text {
+            padding: 20px 0 0;
+            p { 
+             padding-right: 5px;
+             font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width:425px) {
+    .about {
+        &__textbox {
+            margin-top: -10px;
+            padding: 0 30px;
+        }
+        &__title {
+            h3 {
+                font-size: 18px;
+            }
+        }
+        &__text {
+
+            p {
+                font-size: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+// Основной шрифт на сайте с предзагрузкой
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Roboto"),
+         url(assets/fonts/Roboto-Regular.woff) format("woff"),
+         url(assets/fonts/Roboto-Regular.ttf) format("truetype");
+}
+
+
+// Дополнительный шрифт 
+@font-face {
+    font-family: "Quicksand-Light";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local("Quicksand"),
+         url(assets/fonts/Quicksand-Light.ttf) format("woff"),
+         url(assets/fonts/Quicksand-Light.woff) format("truetype");
+}
+
+
+@font-face {
+    font-family: "Quicksand-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Quicksand"),
+         url(assets/fonts/Quicksand-Regular.ttf) format("woff"),
+         url(assets/fonts/Quicksand-Regular.woff) format("truetype");
+}
+
+@font-face {
+    font-family: "Quicksand-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local("Quicksand"),
+         url(assets/fonts/Quicksand-Medium.woff) format("woff"),
+         url(assets/fonts/Quicksand-Medium.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Quicksand-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Quicksand"),
+         url(assets/fonts/Quicksand-Bold.woff) format("woff"),
+         url(assets/fonts/Quicksand-Bold.ttf) format("truetype");
+}

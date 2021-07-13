@@ -1,0 +1,21 @@
+//Ограничивающий контейнер (max-width container)
+body._lock {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1285px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main {
+    flex: 1 1 auto;
+}
